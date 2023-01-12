@@ -77,6 +77,9 @@
         }
       },
       filesAdded (files, fileList) {
+        files.sort(function (a, b) {
+          return a.relativePath.localeCompare(b.relativePath)
+        })
         this.$emit(kebabCase(FILES_ADDED_EVENT), files, fileList)
         if (files.ignored || fileList.ignored) {
           // is ignored, filter it
