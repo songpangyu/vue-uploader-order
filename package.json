@@ -1,15 +1,15 @@
 {
-  "name": "vue-simple-uploader",
-  "version": "0.7.6",
+  "name": "vue-uploader-order",
+  "version": "1.0.0",
   "description": "A Vue.js upload component powered by simple-uploader.js",
   "main": "dist/vue-uploader.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simple-uploader/vue-uploader.git"
+    "url": "https://github.com/songpangyu/vue-uploader-order.git"
   },
-  "bugs": "https://github.com/simple-uploader/vue-uploader/issues",
-  "homepage": "https://github.com/simple-uploader/vue-uploader",
-  "author": "dolymood@gmail.com",
+  "bugs": "https://github.com/songpangyu/vue-uploader-order/issues",
+  "homepage": "https://github.com/songpangyu/vue-uploader-order",
+  "author": "songpangyu@gmail.com",
   "license": "MIT",
   "scripts": {
     "dev": "node build/dev-server.js",
